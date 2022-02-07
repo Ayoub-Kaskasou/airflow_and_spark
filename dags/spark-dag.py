@@ -3,7 +3,7 @@ from airflow.operators.dummy_operator import DummyOperator
 from airflow.contrib.operators.spark_submit_operator import SparkSubmitOperator
 from datetime import datetime, timedelta
 
-#Base parameters
+#Base parameters of spark
 spark_master = "spark://spark:7077"
 spark_app_name = "Spark book count"
 file_path = "/usr/local/spark/data/book.txt"

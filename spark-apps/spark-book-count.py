@@ -1,6 +1,7 @@
 from pyspark.sql import SparkSession
 from pyspark.sql import functions as func
 
+#Create a connection to the Spark Cluster
 spark = SparkSession.builder.appName("WordCount").getOrCreate()
 
 # Read each line of my book into a dataframe
