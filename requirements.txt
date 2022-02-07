@@ -1,0 +1,10 @@
+pandas
+docker
+numpy
+pyspark
+celery
+redis
+kombu
+tornado
+werkzeug
+
