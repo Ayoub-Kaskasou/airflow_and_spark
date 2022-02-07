@@ -8,6 +8,7 @@ spark_master = "spark://spark:7077"
 spark_app_name = "Spark book count"
 file_path = "/usr/local/spark/data/book.txt"
 
+#create a datetime variable
 now = datetime.now()
 
 #Default arguments
